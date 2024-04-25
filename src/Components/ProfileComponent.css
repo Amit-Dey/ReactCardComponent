@@ -1,0 +1,82 @@
+/* ProfileComponent.css */
+
+.profile {
+    display: flex;
+    max-width: 30vw;
+    max-height: 80vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 3rem;
+    background-color: aliceblue;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 1rem 0.1rem #b8b8b8;
+    padding-bottom: 2rem;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.coverImg {
+    width: 100%;
+    height: 25vh;
+    background-color: #f0f0f0;
+    border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.profileImg {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    border: 2px solid #f0f0f0;
+    margin-top: -5rem;
+    background-color: #f0f0f0;
+}
+
+.profileInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.profileInfo h1{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.profileInfo p {
+    font-size: 1rem;
+    color: #8b8a8a;
+    margin-top: 0.5rem;
+}
+
+.hr {
+    width: 100%;
+    height: 0.1rem;
+    background-color: #c7c6c6;
+    margin-top: 3rem;
+}
+
+.profileStats {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.profileStats div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profileStats div h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.profileStats div p {
+    font-size: 1rem;
+    color: #8b8a8a;
+}
